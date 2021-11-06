@@ -82,7 +82,8 @@ export class Router {
     const stateObj = { 'page': page };
 
     if (!statePopped && location.hash != hash) {
-      history.pushState(stateObj, page, `${location.origin}${hash}`);
+      const tempURL = location.href.substr(0, location.href.length - location.hash.length);
+      history.pushState(stateObj, page, `${tempURL}${hash}`);
     }
 
     this[page]();
