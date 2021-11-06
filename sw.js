@@ -4,13 +4,13 @@
 const CACHE_NAME = 'lab-7-starter';
 
 const urlsToCache = [
-  '.',
-  './index.html',
-  './styles/main.css',
-  './assets/scripts/main.js',
-  './assets/scripts/Router.js',
-  './assets/components/RecipeCard.js',
-  './assets/components/RecipeExpand.js',
+  'https://kelvin1003.github.io/Lab7_Starter/',
+  'index.html',
+  'styles/main.css',
+  'assets/scripts/main.js',
+  'assets/scripts/Router.js',
+  'assets/components/RecipeCard.js',
+  'assets/components/RecipeExpand.js',
 ];
 
 // Once the service worker has been installed, feed it some initial URLs to cache
